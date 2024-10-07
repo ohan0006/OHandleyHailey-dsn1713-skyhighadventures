@@ -1,6 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 
+
+:root {
+    --ff-s: 'Judson', serif;
+    --fs-ss: 'Alata', sans-serif;
+    --ff-h1: 'Jua', sans-serif;
+}
+
+h1 {
+    font-family: var(--ff-h1);
+}
+
+body {
+    font-family: var(--fs-ss);
+}
+
+.navbar-brand {
+    font-family: var(--ff-s);
+}
 
 #hero {
     background-image: url(../images/pexels-kokorevas-2853752\ copy.jpg);
