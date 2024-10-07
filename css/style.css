@@ -1,0 +1,15 @@
+
+
+
+
+#hero {
+    background-image: url(../images/pexels-kokorevas-2853752\ copy.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #999;
+  }
+  
+  #hero .d-flex{
+    height: 70vh;
+  }
